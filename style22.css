@@ -1,0 +1,160 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #c8c1bf;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #cf1a17;
+    color: white;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+header p {
+    margin-top: 10px;
+    color: #cbd5e0;
+}
+
+/* Profile */
+.profile {
+    text-align: center;
+    padding: 35px 15px;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0 3px 10px #ccc;
+}
+
+.profile h2 {
+    color: #102a43;
+    margin-top: 15px;
+}
+
+/* General Sections */
+section {
+    background: white;
+    width: 85%;
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px #ddd;
+}
+
+section h2 {
+    color: #c02015;
+    margin-bottom: 20px;
+}
+
+/* About */
+.about p {
+    text-align: justify;
+}
+
+/* Timetable */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 13px;
+    text-align: left;
+}
+
+th {
+    background: #c71313;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f1f5f9;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    padding: 12px;
+    margin-top: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100%;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    margin-top: 20px;
+    padding: 13px;
+    background: #ca211b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #c61818;
+}
+
+/* Footer */
+footer {
+    background: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 22px;
+    }
+
+    section {
+        width: 94%;
+        padding: 20px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 8px 5px;
+    }
+}
